@@ -1,0 +1,10 @@
+maxT=[2,5,12,20,26,30,31,30,26,19,10,3]
+minT=[-9,-6,0,8,14,19,22,21,15,8,0,-6]
+aveP=[3,6,9,22,36,74,179,177,53,23,8,2]
+smaxT=[26,19,10]
+sminT=[15,8,0]
+print("年平均最高气温:%.2f度"%(sum(maxT)/len(maxT)))
+print("年平均最低气温:%.2f度"%(sum(minT)/len(minT)))
+print("年平均降水总量:%.2f毫米"%(sum(aveP)/len(aveP)))
+print("秋季平均最高气温:%.2f度"%(sum(smaxT)/len(smaxT)))
+print("秋季平均最低气温:%.2f度"%(sum(sminT)/len(sminT)))
